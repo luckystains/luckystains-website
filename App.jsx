@@ -212,7 +212,7 @@ function AnimatedClover({ phase, hoveredPath, size = 200 }) {
     <div style={{ position: "relative", width: size, height: size }}>
       {/* Real clover image — the foundation */}
       <img
-        src="/clover.png"
+        src="/ls_main_logo_transparent.png"
         alt="luckystains"
         style={{
           width: size, height: size,
