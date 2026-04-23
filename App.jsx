@@ -653,7 +653,7 @@ function StorySection({ id }) {
 function EcosystemSection() {
   const branches = [
     { icon: "♥︎", name: "luckystains care", sub: "a pet & home service", color: C.green, status: "active" },
-    { icon: "✦", name: "The Sol Bridge", sub: "life architecture practice", color: C.pink, status: "coming soon" },
+    { icon: "✦", name: "The Bridge", sub: "life architecture practice", color: C.pink, status: "coming soon" },
     { icon: "★", name: "luckystains collection", sub: "creative studio · all mediums", color: C.creamDim, status: "active" },
     { icon: "◈", name: "everhearth", sub: "community foundation", color: "#7B5EA7", status: "in becoming" },
   ];
