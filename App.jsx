@@ -82,7 +82,7 @@ function FireflyCursor() {
 function CloverPulse() {
   return (
     <div style={{ position: "fixed", bottom: 24, right: 24, zIndex: 100, width: 48, height: 48, animation: "cpulse 2.5s ease-in-out infinite", filter: "drop-shadow(0 0 8px rgba(93,123,61,.6))", pointerEvents: "none" }}>
-      <img src="/clover-v2.png" alt="luckystains" style={{ width: 48, height: 48, objectFit: "contain" }} />
+      <img src="/clover.png" alt="luckystains" style={{ width: 48, height: 48, objectFit: "contain" }} />
       <style>{`@keyframes cpulse{0%,100%{opacity:.6;transform:scale(.92)}50%{opacity:1;transform:scale(1.08)}}`}</style>
     </div>
   );
@@ -173,7 +173,7 @@ function Nav({ page, setPage, scrolled }) {
         transition: "transform 0.35s cubic-bezier(.4,0,.2,1)",
         display: "flex", flexDirection: "column", padding: "80px 32px 40px", gap: 8,
       }}>
-        <img src="/clover-v2.png" alt="" style={{ width: 48, height: 48, objectFit: "contain", marginBottom: 24, filter: "drop-shadow(0 0 8px rgba(93,123,61,.4))" }} />
+        <img src="/clover.png" alt="" style={{ width: 48, height: 48, objectFit: "contain", marginBottom: 24, filter: "drop-shadow(0 0 8px rgba(93,123,61,.4))" }} />
         {[{ label: "Home", page: "home" }, ...items].map(i => (
           <button key={i.page} onClick={() => go(i.page)} style={{
             background: "none", border: "none", borderBottom: `1px solid rgba(255,255,255,.06)`,
